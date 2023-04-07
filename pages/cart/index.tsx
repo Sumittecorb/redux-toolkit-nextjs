@@ -1,7 +1,7 @@
 import Navbar from "../../component/Navbar/index";
 import { useDispatch } from "react-redux";
 import { remove } from "../../redux/Slice/CartSlice";
-import { useAppSelector } from "@/redux/store/hooks";
+import { useAppSelector } from "@/redux/Store/hooks";
 
 export default function Cart() {
   const dispatch = useDispatch();
