@@ -1,4 +1,4 @@
-import { useAppSelector } from "@/redux/store/hooks"
+import { useAppSelector } from "@/redux/Store/hooks"
 import { useRouter } from "next/router"
 
 export default function Navbar() {

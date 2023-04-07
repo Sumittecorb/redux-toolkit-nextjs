@@ -21,8 +21,6 @@ export default function Products() {
   const fetchProduct = async () => {
     const res = await fetch("https://fakestoreapi.com/products");
     const data = await res.json();
-    console.log(data);
-
     setProduct(data);
   };
 
