@@ -1,12 +1,7 @@
-import Navbar from '@/component/navbar'
-import { Inter } from 'next/font/google'
-import { useRouter } from 'next/router'
-import Products from './product'
-
-const inter = Inter({ subsets: ['latin'] })
+import Navbar from "@/component/Navbar";
+import Products from "./product";
 
 export default function Home() {
-
   return (
     <>
       <Navbar />
@@ -20,5 +15,5 @@ export default function Home() {
         </section>
       </div>
     </>
-  )
+  );
 }

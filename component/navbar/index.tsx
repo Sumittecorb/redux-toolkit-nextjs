@@ -1,6 +1,5 @@
-import { useAppSelector } from "@/store/hooks"
+import { useAppSelector } from "@/redux/store/hooks"
 import { useRouter } from "next/router"
-import { useSelector } from "react-redux"
 
 export default function Navbar() {
     const items = useAppSelector((state) => state.cart)
