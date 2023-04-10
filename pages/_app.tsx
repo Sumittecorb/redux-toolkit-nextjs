@@ -1,8 +1,8 @@
 // import '@/styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.css'
+import { store } from '@/redux/store/store'
 import type { AppProps } from 'next/app'
 import { Provider } from 'react-redux'
-import {store} from "../redux/Store/Store"
+import "../styles/globals.css"
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
