@@ -4,7 +4,6 @@ import { useRouter } from "next/router"
 export default function Navbar() {
     const items = useAppSelector((state) => state.cart)
     const router = useRouter()
-
     const hanldeSubmit = () => {
         router.push("/")
     }
